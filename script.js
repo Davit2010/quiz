@@ -102,8 +102,9 @@ function conclusion() {
 		}
 	});
 
-	document.querySelector('.quiz').appendChild(div);
-	console.log(reply);
+	document.querySelector('.quiz').appendChild(div);	
+	spendBtn.style.display = 'none'
+	document.querySelector('.quiz').style.padding = '2.5rem 2rem'
 }
 
 function saveAnswers() {

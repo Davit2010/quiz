@@ -31,6 +31,7 @@ body {
   width: 600px;
   max-width: 95vw;
   overflow: hidden;
+  height: fit-content;
 }
 
 .title {
@@ -123,8 +124,6 @@ body {
   padding: 4px 6px;
   border: 2px solid red;
   font-size: 18px;
-  background-color: red;
-  color: aliceblue;
   border-radius: 4px;
 }
 .quiz-header {
